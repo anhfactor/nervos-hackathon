@@ -1,4 +1,4 @@
-# nervous-gitcoin-bounty
+# nervous-gitcoin-hackathon-task0
 Setup A Local CKB Node And CKB Indexer For The Testnet.
 Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/1/
 
