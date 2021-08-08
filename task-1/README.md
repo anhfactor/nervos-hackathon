@@ -1,4 +1,4 @@
-# nervous-gitcoin-hackathon-task1
+# nervous-gitcoin-hackathon-task-1
 Create A Godwoken Account On The EVM Layer 2 Testnet
 Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/2/
 
