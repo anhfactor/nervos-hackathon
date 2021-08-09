@@ -15,4 +15,6 @@ https://explorer.nervos.org/aggron/transaction/0x68db3437e4c247e869799994874ff62
 ![alt_text](https://github.com/anhnt4288/nervous-hackathon/blob/master/task-4/account-cli.png)
 
 5. The SUDT ID from the console output after executing the deposit script (in text format).  
+```
 815
+```
