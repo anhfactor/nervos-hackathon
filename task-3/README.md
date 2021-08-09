@@ -3,7 +3,7 @@ Issue A Smart Contract Call To The Deployed Smart Contract
 Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/4/
 
 1. A screenshot of the console output immediately after you have successfully issued a smart contract call.
-![alt text]()
+![alt text](https://github.com/anhnt4288/nervous-hackathon/blob/master/task-3/console_output.png)
 
 2. The transaction hash from the console output (in text format).  
 0xa1b6fffe81f1478d1906051884d59033fd50cdbd320aa7e3fcafa38b3f83e966
