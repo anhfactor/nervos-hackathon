@@ -3,7 +3,7 @@ Use Force Bridge To Deposit Tokens From Ethereum To Polyjuice
 Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/7/
 
 1. A screenshot of the console output immediately after you have successfully generated your Deposit Receiver Address.  
-![alt text]()
+![alt text](https://github.com/anhnt4288/nervous-hackathon/blob/master/task-6/console_output.png)
 
 2. Your Deposit Receiver Address (in text format).   
 ```
