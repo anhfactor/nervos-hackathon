@@ -3,7 +3,7 @@ Initiate Withdrawal Process From The Layer 2 Back To Layer 1
 Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/10/
 
 1. A screenshot of the console output immediately after running the withdraw command.  
-![alt text]()
+![alt text](https://github.com/anhnt4288/nervous-hackathon/blob/master/task-9/console_output.png)
 
 2. The Ethereum address that you've used for your Layer 2 account (in text format).  
 ```
