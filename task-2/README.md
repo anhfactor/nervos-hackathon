@@ -6,7 +6,11 @@ Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/3/
 ![alt text](https://github.com/anhnt4288/nervous-hackathon/blob/master/task-2/deployed_smart_contract.png)
 
 2. The transaction hash from the contract deployment (in text format).  
+```
 0x089edc586b5f1a17c2b21d1061610bc3602ee8872a29e022640ebb4c4fd690f6
+```
 
 3. The deployed contract address from the contract deployment (in text format).  
+```
 0x0b016772B54aA061F0D58515A60eD8ca68129C21
+```
