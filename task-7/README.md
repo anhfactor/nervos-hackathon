@@ -5,8 +5,8 @@ Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/6/
 1. Screenshots or video of your application running on Godwoken.  
 * Screenshots
 ![alt text](https://github.com/anhnt4288/nervous-hackathon/blob/master/task-7/treasure-dapp.png)
-* Video
-[![Watch the video](https://youtu.be/2JkYddO3qQs)
+* Video. 
+[![Watch the video](https://github.com/anhnt4288/nervous-hackathon/blob/master/task-7/treasure-dapp.png)](https://youtu.be/2JkYddO3qQs)
 
 2. Link to the GitHub repository with your application which has been ported to Godwoken. This must be a different application than the one covered in this guide.    
 
