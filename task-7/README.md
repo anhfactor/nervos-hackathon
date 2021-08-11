@@ -1,6 +1,6 @@
-# nervous-gitcoin-hackathon-task-5
-Deploy The ERC20 Proxy Contract For The Deposited SUDT
-Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/6/
+# nervous-gitcoin-hackathon-task-7
+Port An Existing Ethereum DApp To Polyjuice  
+Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/8
 
 1. Screenshots or video of your application running on Godwoken.  
 * Screenshots.  
@@ -20,4 +20,111 @@ https://github.com/anhnt4288/treasure-dapp-polyjuice
 * Deployed contract address   
 ```
 0x97E22b040D51Df95B6dA629929CE0d72d7146c9F
+```
+
+* ABI
+```
+[
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "treasuresReceived",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "treasureList",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "name": "treasureNames",
+          "type": "bytes32[]"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "treasure",
+          "type": "bytes32"
+        }
+      ],
+      "name": "totalTreasuresFor",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "treasure",
+          "type": "bytes32"
+        }
+      ],
+      "name": "claimForTreasure",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [
+        {
+          "name": "treasure",
+          "type": "bytes32"
+        }
+      ],
+      "name": "validTreasure",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ]
 ```
