@@ -23,7 +23,7 @@ Block Explorer URL: N/A
 ```
 You can now interact with a Polyjuice-powered DApp, but first you have to build one.
 
-### Step 2 — Clone Your Existing DApp**
+### Step 2 — Clone Your Existing DApp
 
 Open your local server side and enter the command：
 
@@ -37,7 +37,7 @@ Open your local server side and enter the command：
 now open a browser tab to http://localhost:3000 to view the dApp UI!
 
 
-### Step 3 — Install  Dependencies**
+### Step 3 — Install  Dependencies
 
 There are two dependencies you need to add to your existing web3 Dapp to get it working with the Layer 2 solution Polyjuice.
 
@@ -47,14 +47,16 @@ The second, nervos-godwoken-integration, is a tool that can generate a Polyjuice
 
 Install both using the follow commands:
 
+    cd ~/projects/treasure-dapp-polyjuice
     yarn add @polyjuice-provider/web3@0.0.1-rc7 nervos-godwoken-integration@0.0.6
 
  Now, you can properly configure your existing DApp for Polyjuice.
  
-### Step 4 — Edit **Configuration**
+### Step 4 — Edit Configuration
 
 create a new configuration file (config.ts) 
 
+    cd ~/projects/treasure-dapp-polyjuice
     vi src/config.ts
   
 input the following values for it:
@@ -70,11 +72,11 @@ The web3 provider URL should be configured to the same URL you used for the RPC 
 
 The rollup_type_hash and eth_account_lock are values that are also required for the configuration file.
 
-### Step 5 — Import and Replace our dapp Dependencies**
+### Step 5 — Import and Replace our dapp Dependencies
 
  We will update the main UI in the file,
 
-     cd ~/projects/blockchain-upload-image/src/ui
+     cd ~/projects/treasure-dapp-polyjuice
      vi app.tsx
  
  and input the following values for it:
@@ -101,12 +103,13 @@ With the above code, we have replaced our old Ethereum web3 instance with our ne
 At the completion of this step, your DApp is now capable of communicating with Polyjuice!
 
 
-### Step 6 — Set Higher Gas Limit**
+### Step 6 — Set Higher Gas Limit
 
  Godwoken requires a higher-than-usual gas limit to be set for transactions on the test network (testnet). This may be subject to change in the future.
  
  Open the file and update this file,
 
+    cd ~/projects/treasure-dapp-polyjuice
     vi src/lib/contracts/TreasureWrapper.ts
  update the following values for it:
 
@@ -123,7 +126,7 @@ The modified version of this file in my dapp is:
             from: fromAddress
         });
 
-### **Step 7 — Change Polyjuice Address Display in DApp's UI**
+### Step 7 — Change Polyjuice Address Display in DApp's UI
 
 Each Ethernet address can be translated into a Polyjuice address at layer 2 of Nervos We will use the nervos-godwoken-integration  AddressTranslator class to derive a Polyjuice address from an Ethernet address:
 
@@ -134,9 +137,10 @@ Each Ethernet address can be translated into a Polyjuice address at layer 2 of N
 now, you can implement this Polyjuice Address in the user interface (UI) of your DApp.
 
 
-### Step 8 — View the Completed Your Updated DApp**
+### Step 8 — View the Completed Your Updated DApp
 
 now we have a working Polyjuice DApp, that can run in a browser and is interactable with the MetaMask Wallet extension as soon as you switch its' network to the Godwoken Test network ,Refer to our second step to start the dapp ui
 
 finally enter the URL in your browser to view http://localhost:3000/
+
 <img width="1438" alt="Screen Shot 2021-08-29 at 00 48 50" src="https://user-images.githubusercontent.com/13186215/131226742-1cb78feb-b268-40ce-a74f-fbf385a984cf.png">
