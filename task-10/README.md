@@ -1,4 +1,4 @@
-# nervous-gitcoin-hackathon-task-10
+# nervos-gitcoin-hackathon-task-10
 Complete Withdrawal Process By Unlocking The Funds
 Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/11/
 
