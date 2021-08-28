@@ -1,4 +1,4 @@
-# nervous-gitcoin-hackathon-task-5
+# nervos-gitcoin-hackathon-task-5
 Deploy The ERC20 Proxy Contract For The Deposited SUDT
 Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/6/
 
