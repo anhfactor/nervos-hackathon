@@ -1,4 +1,4 @@
-# nervous-gitcoin-hackathon-task-6
+# nervos-gitcoin-hackathon-task-6
 Use Force Bridge To Deposit Tokens From Ethereum To Polyjuice
 Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/7/
 
