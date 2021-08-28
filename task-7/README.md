@@ -1,4 +1,4 @@
-# nervous-gitcoin-hackathon-task-7
+# nervos-gitcoin-hackathon-task-7
 Port An Existing Ethereum DApp To Polyjuice  
 Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/8
 
