@@ -1,4 +1,4 @@
-# nervous-gitcoin-hackathon-task-3
+# nervos-gitcoin-hackathon-task-3
 Issue A Smart Contract Call To The Deployed Smart Contract
 Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/4/
 
