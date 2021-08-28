@@ -1,1 +1,1 @@
-Nervous hackathon gitcoin
+Nervos hackathon gitcoin
