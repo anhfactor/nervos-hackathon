@@ -1,4 +1,4 @@
-# nervous-gitcoin-hackathon-task-9
+# nervos-gitcoin-hackathon-task-9
 Initiate Withdrawal Process From The Layer 2 Back To Layer 1
 Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/10/
 
