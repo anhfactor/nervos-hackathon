@@ -1,4 +1,4 @@
-# nervous-gitcoin-hackathon-task-2
+# nervos-gitcoin-hackathon-task-2
 Deploy A Simple Ethereum Smart Contract On Polyjuice
 Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/3/
 
