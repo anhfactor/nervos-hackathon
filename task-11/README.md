@@ -3,15 +3,17 @@ Use A Tron Wallet To Execute A Smart Contract Call
 Gitcoin bounty: https://gitcoin.co/issue/nervosnetwork/grants/15/
 
 1. A screenshot of the accounts you created (account list) in ckb-cli.
-
+<img width="612" alt="nervos-1" src="https://user-images.githubusercontent.com/13186215/131248067-a575b48d-87cf-454e-b49a-a71838e326b7.png">
 
 2. A link to the Layer 1 address you funded on the Testnet Explorer.
 https://explorer.nervos.org/aggron/address/ckt1qyqyude4dsjp6nk57ld2gunkeza2k2ff7p8s3y49kw
 
 3. A screenshot of the console output immediately after you have successfully submitted a CKByte deposit to your Tron account on Layer 2.
-
+<img width="1423" alt="nervos-2" src="https://user-images.githubusercontent.com/13186215/131248091-2d2ccb18-a1f4-443b-9ae1-e5e1da22edd5.png">
 
 4. A screenshot of the console output immediately after you have successfully issued a smart contract calls on Layer 2.
+<img width="1418" alt="nervos-3" src="https://user-images.githubusercontent.com/13186215/131248098-e406dfc0-c32a-4f3f-acb0-e4fbcd139824.png">
+
 
 5. The transaction hash of the "Contract call" from the console output (in text format).
 ```
